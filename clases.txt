@@ -1,0 +1,48 @@
+@startuml
+
+
+
+Class Paseador {
+    documento : int
+    tipoDocumento : TDoc
+    nombre : String
+    correo : String
+    telefono : int
+}
+
+Class Subasta {
+    id : int
+    oferta : int
+}
+
+Class Cliente {
+    documento : int
+    tipoDocumento : TDoc
+    nombre : String
+    correo : String
+    telefono : int
+}
+
+Class Mascota {
+    id : int
+    nombre : String
+    raza : String
+    edad : int
+    genero : String
+}
+
+Class Paseo {
+    id : int
+    ruta : String
+    duracion : int
+}
+
+
+Paseador - "-mascotas" Mascota
+Cliente - "-paseos" Paseo
+Paseador "*" - "-paseos" Paseo
+Cliente - "-subastas" Subasta
+Cliente "*" - "-mascotas" Mascota
+Paseador "*" - "-subastas" Subasta
+
+@enduml
