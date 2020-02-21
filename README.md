@@ -23,8 +23,8 @@ EasyCare es una plataforma que ofrece el servicio de paseo de perros, en la cual
 ### Diagrama Entidad - Relación
 ![](https://raw.githubusercontent.com/AndresFelipeGualdron/easyCare/master/img/entidad-relacion.PNG)
 
-### Diagrama de clases
+### Diagrama de Clases
 ![](https://raw.githubusercontent.com/AndresFelipeGualdron/easyCare/master/img/clases.PNG)
 
-### Historias de Usuario
+### Diagrama Casos de Uso
 ![](https://github.com/AndresFelipeGualdron/easyCare/blob/master/img/casosDeUso.PNG)
