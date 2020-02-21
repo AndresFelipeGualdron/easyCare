@@ -18,6 +18,37 @@ EasyCare es una plataforma que ofrece el servicio de paseo de perros, en la cual
 
 ## Heroku
 
+## Diseño de Interfaz Gráfica
+
+Página principal:
+![](https://raw.githubusercontent.com/AndresFelipeGualdron/easyCare/master/mockups/1.png)
+
+Para los paseadores registrados pueden iniciar sesión:
+![](https://raw.githubusercontent.com/AndresFelipeGualdron/easyCare/master/mockups/2.png)
+
+Al entrar a la opción de paseadores, el usuario tiene la opción de ver a los mejores paseadores y al listado completo de ellos:
+![](https://raw.githubusercontent.com/AndresFelipeGualdron/easyCare/master/mockups/3.png)
+
+Mejores paseadores:
+![](https://raw.githubusercontent.com/AndresFelipeGualdron/easyCare/master/mockups/4.png)
+
+Listado de todos los paseadores:
+![](https://raw.githubusercontent.com/AndresFelipeGualdron/easyCare/master/mockups/5.png)
+
+Formulario para el usuario que quiera postularse como paseador:
+![](https://raw.githubusercontent.com/AndresFelipeGualdron/easyCare/master/mockups/6.png)
+
+Para que el cliente pueda acceder a un paseo, debe seguir unos pasos.
+
+1. Llenar un formulario con sus datos personales:
+![](https://raw.githubusercontent.com/AndresFelipeGualdron/easyCare/master/mockups/7.png)
+
+2. Llenar un formulario con los datos del perro:
+![](https://raw.githubusercontent.com/AndresFelipeGualdron/easyCare/master/mockups/8.png)
+
+3. Poner los datos de la ruta y crear la subasta:
+![](https://raw.githubusercontent.com/AndresFelipeGualdron/easyCare/master/mockups/9.png)
+
 ## Arquitectura de la aplicación
 
 ### Diagrama Entidad - Relación
