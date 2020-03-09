@@ -1,0 +1,36 @@
+@startuml
+
+node Cliente{
+  }
+
+node FrontendCliente{
+  }
+
+node Backend{
+  
+  }
+
+database PostgreSQL{
+  }
+
+
+node Paseador{
+}
+
+node FrontendPaseador{
+  }
+  
+  
+  Cliente -( UserInterface1
+  UserInterface1 - FrontendCliente
+  FrontendCliente -( APIClient
+  APIClient - Backend
+  Backend -( Driver
+  Driver - PostgreSQL
+  Paseador -( UserInterface2
+  UserInterface2 - FrontendPaseador
+  FrontendPaseador -( APIPaseador
+  APIPaseador - Backend
+
+    
+@enduml
