@@ -59,3 +59,9 @@ Para que el cliente pueda acceder a un paseo, debe seguir unos pasos.
 
 ### Diagrama Casos de Uso
 ![](https://github.com/AndresFelipeGualdron/easyCare/blob/master/img/casosDeUso.PNG)
+
+### Diagrama Componentes
+![](https://raw.githubusercontent.com/AndresFelipeGualdron/easyCare/master/img/componentes.png)
+
+### Diagrama Despliegue
+![](https://raw.githubusercontent.com/AndresFelipeGualdron/easyCare/master/img/despliegue.png)
