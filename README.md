@@ -2,6 +2,39 @@
 
 ## Arquitecturas de Software - ARSW
 
+#" easycare-backend
+
+### Codacy Badge
+
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/404e3a94617d41b989f2c47007ca9179)](https://www.codacy.com/manual/migue1994/easycare-backend?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=migue1994/easycare-backend&amp;utm_campaign=Badge_Grade)
+
+### CircleCi Badge
+
+[![CircleCI](https://circleci.com/gh/migue1994/easycare-backend.svg?style=svg)](https://circleci.com/gh/migue1994/easycare-backend)
+
+## EasyCare app
+
+### Circle Badge
+[![CircleCI](https://circleci.com/gh/AndresFelipeGualdron/easycareapp.svg?style=svg)](https://circleci.com/gh/AndresFelipeGualdron/easycareapp)
+
+### Codacy Badge
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/04c7a47585da4118a22f076966e760ef)](https://www.codacy.com/manual/AndresFelipeGualdron/easycareapp?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=AndresFelipeGualdron/easycareapp&amp;utm_campaign=Badge_Grade)
+
+## EasyCare app walker
+
+### Circle Badge
+
+### Codacy Badge
+
+## Despliegue
+
+### Api Rest
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://arswbackeasycare.herokuapp.com/swagger-ui.html)
+
+### EasyCare App
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://arsw-easycareapp.herokuapp.com/)
+### EasyCare Walker
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://arsw-easycareapp-paseadores.herokuapp.com/)
 ## Descripción
 
 ### Resumen
