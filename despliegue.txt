@@ -1,0 +1,31 @@
+@startuml
+
+node WebBrowser{
+  node JSProcessor{
+    node easyCareFrontend
+    }
+  }
+
+node easyCareDyno{
+  node Frontend{
+    node React
+    node CSS
+    node HTML
+    }
+  node Backend{
+    node JVM{
+      node SpringbootFramework{
+        node easyCareBackend
+        }
+      }
+    
+    }
+
+database PostgreSQL{
+  }
+  
+  Backend - PostgreSQL : MyBatis
+  easyCareBackend - Frontend : jQuery
+  Frontend - WebBrowser : <<Download>> HTTP
+    
+@enduml
