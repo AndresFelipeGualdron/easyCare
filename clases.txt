@@ -4,7 +4,7 @@
 
 Class Paseador {
     documento : int
-    tipoDocumento : TDoc
+    tipoDocumento : String
     nombre : String
     correo : String
     telefono : int
@@ -17,7 +17,7 @@ Class Subasta {
 
 Class Cliente {
     documento : int
-    tipoDocumento : TDoc
+    tipoDocumento : String
     nombre : String
     correo : String
     telefono : int
@@ -33,16 +33,32 @@ Class Mascota {
 
 Class Paseo {
     id : int
-    ruta : String
     duracion : int
+    precio : int
 }
 
+Class Ruta {
+  id : int
+  puntoPartida : String
+  puntoLlegada : String
+}
 
+Class PaseoEnCurso {
+  id : int
+  UbicacionActual : Array
+}
+
+Subasta - Paseo
+Paseo "*" - Ruta
 Paseador - "-mascotas" Mascota
-Cliente - "-paseos" Paseo
+Cliente "*" - "-paseos" Paseo
 Paseador "*" - "-paseos" Paseo
 Cliente - "-subastas" Subasta
-Cliente "*" - "-mascotas" Mascota
+Cliente - "-mascotas" Mascota
+Cliente "*" - Ruta
 Paseador "*" - "-subastas" Subasta
+Paseador - PaseoEnCurso
+PaseoEnCurso - Paseo
+PaseoEnCurso - "-mascotas" Mascota
 
 @enduml
