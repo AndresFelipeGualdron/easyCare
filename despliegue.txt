@@ -1,13 +1,22 @@
 @startuml
 
 node WebBrowser{
-    node Frontend{
+    node FrontendClients{
     node React
     node CSS
     node HTML
     
     node JSProcessor{
-        node easyCareFrontend
+        node easyCareClientsFrontend
+    }
+  }
+  node FrontendWalkers{
+    node React_
+    node CSS_
+    node HTML_
+    
+    node JSProcessor_{
+        node easyCareWalkersFrontend
     }
   }
   }
@@ -28,6 +37,7 @@ database PostgreSQL{
   }
   
   PostgreSQL - Backend : MyBatis
-  Backend - Frontend : <<Download>> HTTP
+  Backend - FrontendClients : <<Download>> HTTP
+  Backend - FrontendWalkers : <<Download>> HTTP
     
 @enduml
