@@ -4,6 +4,8 @@ node Cliente{
   }
 
 node FrontendCliente{
+    node requestServiceClient
+    node loginCliente
   }
 
 node Backend{
@@ -18,19 +20,23 @@ node Paseador{
 }
 
 node FrontendPaseador{
+    node requestServiceWalker
+    node loginPaseador
   }
   
   
   Cliente -( UserInterface1
   UserInterface1 - FrontendCliente
-  FrontendCliente -( APIClient
+  requestServiceClient -( APIClient
+  loginCliente - Backend
   APIClient - Backend
-  Backend -( Driver
-  Driver - PostgreSQL
   Paseador -( UserInterface2
   UserInterface2 - FrontendPaseador
-  FrontendPaseador -( APIPaseador
+  requestServiceWalker -( APIPaseador
   APIPaseador - Backend
+  loginPaseador - Backend
+  Backend -( Driver
+  Driver - PostgreSQL
 
     
 @enduml
