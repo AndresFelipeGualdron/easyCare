@@ -1,25 +1,29 @@
 @startuml
 
-node WebBrowser{
+node WebBrowser1{
     node FrontendClients{
-    node React
     node CSS
     node HTML
     
-    node JSProcessor{
+    node JSEngine{
+        node React
         node easyCareClientsFrontend
     }
   }
-  node FrontendWalkers{
-    node React_
+  
+}
+ 
+node WebBrowser2{
+    node FrontendWalkers{
     node CSS_
     node HTML_
     
-    node JSProcessor_{
+    node JSEngine_{
+        node React_
         node easyCareWalkersFrontend
     }
   }
-  }
+}
 
 node easyCareDyno{
   
@@ -36,7 +40,7 @@ node easyCareDyno{
 database PostgreSQL{
   }
   
-  PostgreSQL - Backend : MyBatis
+  PostgreSQL - Backend : JDBC
   Backend - FrontendClients : <<Download>> HTTP
   Backend - FrontendWalkers : <<Download>> HTTP
     
