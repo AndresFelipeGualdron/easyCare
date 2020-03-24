@@ -23,18 +23,22 @@
 ## EasyCare app walker
 
 ### Circle Badge
+[![CircleCI](https://circleci.com/gh/Nattpalacios/easyCareApp-paseadores.svg?style=svg)](https://circleci.com/gh/Nattpalacios/easyCareApp-paseadores)
 
 ### Codacy Badge
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/ba1f543d16f547acb2af97b86b0156fb)](https://www.codacy.com/manual/Nattpalacios/easyCareApp-paseadores?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=Nattpalacios/easyCareApp-paseadores&amp;utm_campaign=Badge_Grade)
 
-## Despliegue
+## Despliegue - Heroku
 
 ### Api Rest
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://arswbackeasycare.herokuapp.com/swagger-ui.html)
 
 ### EasyCare App
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://arsw-easycareapp.herokuapp.com/)
+
 ### EasyCare Walker
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://arsw-easycareapp-paseadores.herokuapp.com/)
+
 ## Descripción
 
 ### Resumen
@@ -48,8 +52,6 @@ EasyCare es una plataforma que ofrece el servicio de paseo de perros, en la cual
 - Andrés Gualdron
 - Natalia Palacios
 - Miguel Rivera
-
-## Heroku
 
 ## Diseño de Interfaz Gráfica
 
