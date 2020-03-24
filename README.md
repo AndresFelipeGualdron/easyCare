@@ -53,8 +53,8 @@ EasyCare es una plataforma que ofrece el servicio de paseo de perros, en la cual
 
 ## Heroku
 
-easyCare app: https://arsw-easycareapp.herokuapp.com/
-easyCare app - walkers: https://arsw-easycareapp-paseadores.herokuapp.com/
+- easyCare app: https://arsw-easycareapp.herokuapp.com/
+- easyCare app - walkers: https://arsw-easycareapp-paseadores.herokuapp.com/
 
 ## Diseño de Interfaz Gráfica
 
