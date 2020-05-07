@@ -96,7 +96,7 @@ Para que el cliente pueda acceder a un paseo, debe seguir unos pasos.
 ![](https://github.com/AndresFelipeGualdron/easyCare/blob/master/img/casosDeUso.PNG)
 
 ### Diagrama Componentes
-![](https://raw.githubusercontent.com/AndresFelipeGualdron/easyCare/master/img/componentes.png)
+![](https://raw.githubusercontent.com/AndresFelipeGualdron/easyCare/master/img/componentes.JPG)
 
 ### Diagrama Despliegue
 ![](https://raw.githubusercontent.com/AndresFelipeGualdron/easyCare/master/img/despliegue.png)

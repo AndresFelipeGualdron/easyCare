@@ -6,10 +6,12 @@ node Cliente{
 node FrontendCliente{
     node requestServiceClient
     node loginCliente
+    node c
   }
 
 node Backend{
-  
+    node easyCareController
+    node easyCareService
   }
 
 database PostgreSQL{
@@ -22,21 +24,25 @@ node Paseador{
 node FrontendPaseador{
     node requestServiceWalker
     node loginPaseador
+    node w
   }
   
   
   Cliente -( UserInterface1
   UserInterface1 - FrontendCliente
-  requestServiceClient -( APIClient
-  loginCliente - Backend
-  APIClient - Backend
   Paseador -( UserInterface2
   UserInterface2 - FrontendPaseador
+  easycareService - easyCareController
+  requestServiceClient -( APIClient
+  APIClient - easyCareController
   requestServiceWalker -( APIPaseador
-  APIPaseador - Backend
-  loginPaseador - Backend
-  Backend -( Driver
+  APIPaseador - easyCareController
+  loginCliente - easyCareController
+  loginPaseador - easyCareController
+  easyCareService -( Driver
   Driver - PostgreSQL
-
+  c - Backend
+  w - Backend
+  
     
 @enduml
