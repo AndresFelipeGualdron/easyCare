@@ -45,8 +45,16 @@ https://github.com/Nattpalacios/easyCareApp-paseadores
 ### EasyCare App
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://arsw-easycareapp.herokuapp.com/)
 
+Usuario para prueba
+User: gualdronsito@hotmail.com
+Password: 123
+
 ### EasyCare Walker
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://arsw-easycareapp-paseadores.herokuapp.com/)
+
+Usuario para prueba
+User: natalia@hotmail.com
+Password: 1234
 
 ## Descripción
 
