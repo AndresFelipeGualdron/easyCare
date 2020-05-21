@@ -53,36 +53,104 @@ EasyCare es una plataforma que ofrece el servicio de paseo de perros, en la cual
 - Natalia Palacios
 - Miguel Rivera
 
-## Diseño de Interfaz Gráfica
+## Manual de Usuario
 
-Página principal:
-![](https://raw.githubusercontent.com/AndresFelipeGualdron/easyCare/master/mockups/1.png)
+Esta es la página principal para los paseadores. Para poder ver el Ranking de paseadores, debe estar registrado e iniciar sesión.
 
-Para los paseadores registrados pueden iniciar sesión:
-![](https://raw.githubusercontent.com/AndresFelipeGualdron/easyCare/master/mockups/2.png)
+![](https://raw.githubusercontent.com/AndresFelipeGualdron/easyCare/master/mockups/1.JPG)
 
-Al entrar a la opción de paseadores, el usuario tiene la opción de ver a los mejores paseadores y al listado completo de ellos:
-![](https://raw.githubusercontent.com/AndresFelipeGualdron/easyCare/master/mockups/3.png)
+Este es el menú para registrarse como paseador:
 
-Mejores paseadores:
-![](https://raw.githubusercontent.com/AndresFelipeGualdron/easyCare/master/mockups/4.png)
+![](https://raw.githubusercontent.com/AndresFelipeGualdron/easyCare/master/mockups/2.JPG)
 
-Listado de todos los paseadores:
-![](https://raw.githubusercontent.com/AndresFelipeGualdron/easyCare/master/mockups/5.png)
+Este es el menú para iniciar sesión como paseador:
 
-Formulario para el usuario que quiera postularse como paseador:
-![](https://raw.githubusercontent.com/AndresFelipeGualdron/easyCare/master/mockups/6.png)
+![](https://raw.githubusercontent.com/AndresFelipeGualdron/easyCare/master/mockups/3.JPG)
 
-Para que el cliente pueda acceder a un paseo, debe seguir unos pasos.
+Al iniciar sesión como paseador, se muestra el menú principal:
 
-1. Llenar un formulario con sus datos personales:
-![](https://raw.githubusercontent.com/AndresFelipeGualdron/easyCare/master/mockups/7.png)
+![](https://raw.githubusercontent.com/AndresFelipeGualdron/easyCare/master/mockups/4.JPG)
 
-2. Llenar un formulario con los datos del perro:
-![](https://raw.githubusercontent.com/AndresFelipeGualdron/easyCare/master/mockups/8.png)
+Al estar en el menú principal del paseador, si da clic en 'Perfil', se muestran los datos del paseador. Si da clic en 'Volver al menú', regresa al menú principal del paseador.
 
-3. Poner los datos de la ruta y crear la subasta:
-![](https://raw.githubusercontent.com/AndresFelipeGualdron/easyCare/master/mockups/9.png)
+![](https://raw.githubusercontent.com/AndresFelipeGualdron/easyCare/master/mockups/5.JPG)
+
+Si da clic en 'Ranking Paseadores', se muestra el ranking de todos los paseadores que están registrados:
+
+![](https://raw.githubusercontent.com/AndresFelipeGualdron/easyCare/master/mockups/6.JPG)
+
+Si da clic en 'Subastas', le aparecen todas las subastas que estén en el momento (En este caso no hay):
+
+![](https://raw.githubusercontent.com/AndresFelipeGualdron/easyCare/master/mockups/7.JPG)
+
+Esta es la página principal para los clientes. Para poder acceder al ranking de paseadores o a los paseos, debe estar registrado e iniciar sesión.
+
+![](https://raw.githubusercontent.com/AndresFelipeGualdron/easyCare/master/mockups/8.JPG)
+
+Este es el menú para registrarse como cliente:
+
+![](https://raw.githubusercontent.com/AndresFelipeGualdron/easyCare/master/mockups/9.JPG)
+
+Este es el menú para iniciar sesión como cliente:
+
+![](https://raw.githubusercontent.com/AndresFelipeGualdron/easyCare/master/mockups/10.JPG)
+
+Al iniciar sesión como cliente, se muestra el menú principal. La opción 'Se uno de nuestros paseadores' lo direcciona a la página de Paseadores para que se registre.
+
+![](https://raw.githubusercontent.com/AndresFelipeGualdron/easyCare/master/mockups/11.JPG)
+
+Si da clic en 'Paseadores', se muestra el ranking de todos los paseadores que están registrados:
+
+![](https://raw.githubusercontent.com/AndresFelipeGualdron/easyCare/master/mockups/12.JPG)
+
+Si da clic en 'Quiero un paseo', se muestra el menú para llevar a cabo un paseo y hay tres pestañas. En la primera pestaña se muestra el menú para registrar una mascota:
+
+![](https://raw.githubusercontent.com/AndresFelipeGualdron/easyCare/master/mockups/13.JPG)
+
+En la segunda pestaña se pueden observar las mascotas que ha registrado el cliente y se pueden editar los datos o eliminar la mascota, si así lo desea:
+
+![](https://raw.githubusercontent.com/AndresFelipeGualdron/easyCare/master/mockups/14.JPG)
+
+En la tercera pestaña se encuentra el formulario para solicitar un paseo. Puede elegir si quiere que se pasee solo su mascota o si permite que se pasee su mascota junto con otras. Debe decir cuánto tiempo quiere que dure el paseo en minutos.
+
+![](https://raw.githubusercontent.com/AndresFelipeGualdron/easyCare/master/mockups/15-1.JPG)
+
+Puede escoger si quiere escribir la dirección donde se debe recoger a la mascota o si quiere que se genere mediante el mapa. Da clic en pedir paseo.
+
+![](https://raw.githubusercontent.com/AndresFelipeGualdron/easyCare/master/mockups/15-2.JPG)
+
+Al dar clic en pedir paseo, en la interfaz del paseador, en la parte de subastas, le aparece la nueva subasta creada:
+
+![](https://raw.githubusercontent.com/AndresFelipeGualdron/easyCare/master/mockups/16.JPG)
+
+Si el paseador ingresa a la subasta, puede dar su oferta y le aparecerá así:
+
+![](https://raw.githubusercontent.com/AndresFelipeGualdron/easyCare/master/mockups/17.JPG)
+
+La oferta dada por el paseador, al cliente le aparece así y puede aceptarla o no:
+
+![](https://raw.githubusercontent.com/AndresFelipeGualdron/easyCare/master/mockups/18.JPG)
+
+Si el cliente acepta la oferta, le aparece lo siguiente mientras el paseador da inicio al paseo:
+
+![](https://raw.githubusercontent.com/AndresFelipeGualdron/easyCare/master/mockups/19.JPG)
+
+Cuando el cliente acepta la oferta, al paseador se le da la opción de iniciar el paseo o cancelarlo:
+
+![](https://raw.githubusercontent.com/AndresFelipeGualdron/easyCare/master/mockups/20.JPG)
+
+Cuando el paseador inicia el paseo, le aparece lo siguiente y el tiempo va disminuyendo:
+
+![](https://raw.githubusercontent.com/AndresFelipeGualdron/easyCare/master/mockups/21.JPG)
+
+Cuando el paseo está en curso, al cliente le aparece lo siguiente y se va mostrando en el mapa la ruta que toma el paseador:
+
+![](https://raw.githubusercontent.com/AndresFelipeGualdron/easyCare/master/mockups/22.JPG)
+
+Cuando el tiempo se acaba y el paseador finaliza el paseo, el cliente puede calificar al paseador:
+
+![](https://raw.githubusercontent.com/AndresFelipeGualdron/easyCare/master/mockups/23.JPG)
+
 
 ## Arquitectura de la aplicación
 
