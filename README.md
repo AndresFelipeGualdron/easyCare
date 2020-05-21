@@ -4,6 +4,9 @@
 
 # easycare-backend
 
+## Repositorio
+https://github.com/AndresFelipeGualdron/easyCareBack
+
 ### Codacy Badge
 
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/404e3a94617d41b989f2c47007ca9179)](https://www.codacy.com/manual/migue1994/easycare-backend?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=migue1994/easycare-backend&amp;utm_campaign=Badge_Grade)
@@ -14,6 +17,9 @@
 
 ## EasyCare app
 
+### Repositorio
+https://github.com/AndresFelipeGualdron/easycareapp
+
 ### Circle Badge
 [![CircleCI](https://circleci.com/gh/AndresFelipeGualdron/easycareapp.svg?style=svg)](https://circleci.com/gh/AndresFelipeGualdron/easycareapp)
 
@@ -21,6 +27,9 @@
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/04c7a47585da4118a22f076966e760ef)](https://www.codacy.com/manual/AndresFelipeGualdron/easycareapp?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=AndresFelipeGualdron/easycareapp&amp;utm_campaign=Badge_Grade)
 
 ## EasyCare app walker
+
+### Repositorio
+https://github.com/Nattpalacios/easyCareApp-paseadores
 
 ### Circle Badge
 [![CircleCI](https://circleci.com/gh/Nattpalacios/easyCareApp-paseadores.svg?style=svg)](https://circleci.com/gh/Nattpalacios/easyCareApp-paseadores)
