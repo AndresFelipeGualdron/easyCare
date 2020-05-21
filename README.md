@@ -151,6 +151,19 @@ Cuando el tiempo se acaba y el paseador finaliza el paseo, el cliente puede cali
 
 ![](https://raw.githubusercontent.com/AndresFelipeGualdron/easyCare/master/mockups/23.JPG)
 
+## Requerimientos no funcionales
+
+1. Usabilidad:
+Como objetivo de mantener un mismo estándar en toda nuestra aplicación como en los botones, mapas y demas elementos
+utilizamos la librería bootstrap y librerías de react como react-modal, react-google-maps, reactstrap y material ui, de manera que el uso de la aplicación fuera lo mas amigable para el usuario, dontandola de una interfaz de fácul uso e intuitiva para este.
+
+2. Disponibilidad.
+Se quiere saber la capacidad que tiene la aplicación para reaccionar ante los fallos, por lo tanto, se hizo el experimento de realizar numerosas peticiones concurrentes, con el fín de evaluar la variación promedio de respuesta de las peticiones, y así determinar el rendimiento actual de la misma.
+
+![](https://github.com/AndresFelipeGualdron/easyCare/blob/master/img/Disponibilidad.PNG)
+
+Como podemos ver en la anterior imagen, se registraron peticiones que tomaron 88ms, siendo este el tiempo más  bajo, hasta 862ms, teniendo un tiempo promedio de respuesta de 114ms, este último dato, nos muestra que gran parte de las request tomaron un tiempo de respuesta bajo, por lo que se puede concluir que para 20 iteraciones de 120 peticiones, el desempeño de la app fue bueno, pues el tiempo de respuesta en su mayoría fue bajo, teniendo en cuenta que para este tipo de servicios, hoy en día no es tan común esperar 2400 solicitudes al mismo tiempo.
+
 
 ## Arquitectura de la aplicación
 
